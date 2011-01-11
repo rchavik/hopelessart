@@ -29,3 +29,65 @@
 </p>
 
 <p>your_app/app/views/themed/hopelessart/webroot/img/</p>
+
+<h2>The promotion text blocks</h2>
+
+<p>
+	To add some textblocks under the banner like you can see on the screen shot, add some blocks and set their regions to center.
+	I think three center blocks are perfect.
+</p>
+
+<p>
+	The footer region is similar to the center region. You can add some blocks to the footer region and put there some information 
+	like the latest posts or an archive. I prefer to use maximal five blocks for the footer region.
+</p>
+
+<h2>Social Media</h2>
+
+<p>
+	Now you know everything about the regions by the HopelessArt- theme, you need to know. But there are still some cool features I would like you to know. 
+	As you can see on the screenshot, there are some social-bookmarks like RSS and Twitter. The HopelessArt- theme supports the following social-bookmarks:
+</p>
+
+<ul>
+	<li>delicious</li>
+    <li>designbump</li>
+    <li>designfloat</li>
+    <li>digg</li>
+    <li>dzone</li>
+    <li>email</li>
+    <li>rss</li>
+    <li>stumbleupon</li>
+    <li>technorati</li>
+    <li>twitter</li>
+</ul>
+
+<p>To add or remove a social-bookmark, you have to edit the default layout of HopelessArt. Open default.ctp in</p>
+
+<p>your_app/app/views/themed/hopelessart/layouts</p>
+
+<p>and go to line: <b>58</b>. You should see the following code:</p>
+
+<p>
+	echo $this-&gt;Custom-&gt;socialBookmark('rss', '/nodes/promoted.rss');<br/>
+	echo $this-&gt;Custom-&gt;socialBookmark('twitter', 'http://twitter.com/#');
+</p>
+
+<p>
+	The code-snippet CustomerHelper::socialBookmark($type, $link) generates all social-bookmarks you would like to have if they are available. 
+	The first param is the type of social-bookmark. Take one of the list above. The second param is the link, maybe the link to your twitter timeline.
+</p>
+
+<h2>The Fancybox</h2>
+
+<p>
+	Another cool feature is the jQuery-fancybox-plugin i have integrated. All you have to do to run the fancybox for all images in your blogposts, 
+	is to edit your blogpost in HTML-Mode via TinyMCE in the admin panel. Wrap your embedded image with an anker-tag. Then add to your anker the class: "fancyimage". Thats all. 
+	Here is a little example:
+</p>
+
+<p>
+	&lt;a class="fancyimage" href="link_to_your_image"&gt;
+		&lt;img src="source_to_your_image" alt="" /&gt;
+	&lt;/a&gt;
+</p>	
