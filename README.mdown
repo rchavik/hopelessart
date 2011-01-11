@@ -3,4 +3,13 @@
 <p>Themes for <a href="http://croogo.org">Croogo</a> CMS.<p>
 <p>Requires <a href="http://github.com/croogo/croogo/downloads">Croogo 1.3</a> or higher.</p>
 
-<hr/>
+<h2>How to use</h2>
+
+<ul>
+	<li>Log into admin panel</li>
+	<li>Go to  <i>Extensions > Themes</i><li>
+	<li>Upload the zip file</li>
+	<li>Click on <i>Activate</i> link of your new theme</li>
+<ul>
+
+<p>Read more about theming with Croogo here: <a href="http://wiki.github.com/croogo/croogo/themes">http://wiki.github.com/croogo/croogo/themes</a></p>
