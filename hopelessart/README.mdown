@@ -1,0 +1,31 @@
+<h1>Setting up HopelessArt Theme</h1>
+
+<p>
+	Please notice, if you are using Croogo and activated the Default- or Minimal- theme ( both are developed by Fahad Ibnay Heylaal ),
+	that the Hopelessart- theme is a little bit complexer to set up as the both other themes i have mentioned above.
+</p>
+
+<h2>The Regions</h2>
+
+<p>The HopelessArt- theme has some more regions than you would expect. Here is a list of all regions in HopelessArt:</p>
+
+<ul>
+	<li>header-right</li>
+	<li>right</li>
+	<li>center</li>
+	<li>footer</li>
+</ul>
+
+<p>
+	So, the first thing you have to do, after installing the HopelessArt theme via admin panel -> extensions -> upload, is to create the missing regions header-right, center and footer.
+	You may have a block in the 'right' section, called search. This block have to be in the header-right section. 
+	So go into the admin panel and set the region of the search block to header-right.
+</p>
+
+<p>
+	The next thing is the big banner on the promoted page. Actually i planned to integrate something like jCarousel for some cool effects
+	with the banner, but it makes it difficult to keep the theme general. I'm working on it.
+	To modify this picture, create an image (958 x 300) , call it 'promoted_banner.jpg' and move it into:
+</p>
+
+<p>your_app/app/views/themed/hopelessart/webroot/img/</p>
