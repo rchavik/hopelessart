@@ -7,7 +7,7 @@
 
 <ul>
 	<li>Log into admin panel</li>
-	<li>Go to  <i>Extensions > Themes</i><li>
+	<li>Go to  <i>Extensions &gt; Themes</i></li>
 	<li>Upload the zip file</li>
 	<li>Click on <i>Activate</i> link of your new theme</li>
 <ul>
