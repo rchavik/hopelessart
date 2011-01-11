@@ -1,0 +1,16 @@
+name: HopelessArt
+description: HopelessArt theme for Croogo
+screenshot: screenshot.jpg
+
+author: Pascal Precht
+authorEmail: pascal.precht@web.de
+authorUrl: http://hopelessart.com
+
+menus:
+  - main
+
+regions:
+  - header-right
+  - right
+  - center
+  - footer
