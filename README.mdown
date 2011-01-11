@@ -10,6 +10,6 @@
 	<li>Go to  <i>Extensions &gt; Themes</i></li>
 	<li>Upload the zip file</li>
 	<li>Click on <i>Activate</i> link of your new theme</li>
-<ul>
+</ul>
 
 <p>Read more about theming with Croogo here: <a href="http://wiki.github.com/croogo/croogo/themes">http://wiki.github.com/croogo/croogo/themes</a></p>
