@@ -1,5 +1,5 @@
 <h1>Themes</h1>
-
+<h2>ATTENTION: Every Theme has its own README.mdown file</h2>
 <p>Themes for <a href="http://croogo.org">Croogo</a> CMS.<p>
 <p>Requires <a href="http://github.com/croogo/croogo/downloads">Croogo 1.3</a> or higher.</p>
 
