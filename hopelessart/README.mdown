@@ -87,7 +87,23 @@
 </p>
 
 <p>
-	&lt;a class="fancyimage" href="link_to_your_image"&gt;
-		&lt;img src="source_to_your_image" alt="" /&gt;
+	&lt;a class="fancyimage" href="link_to_your_image"&gt;<br/>
+		&lt;img src="source_to_your_image" alt="" /&gt;<br/>
 	&lt;/a&gt;
-</p>	
+</p>
+
+<p>
+	The fancybox works in view-, promoted- and index- view. 
+</p>
+
+<h2>General Usage</h2>
+
+<p>
+	Please notice, that the HopelessArt- theme uses the "excerpt" field in nodes, to show an excerpt in the index- view for each blogpost.
+	So if you add a blogpost, or something like this, you have to use the excerpt field, to see anything on yout site.
+</p> 	
+
+<p>
+	These are the most important features by HopelessArt. Have fun with it!
+</p>
+<p>If you have any questions, bugs or improvement suggestions feel free and send me a message to my email address!</p>
