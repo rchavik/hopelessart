@@ -59,7 +59,7 @@
 						<?php
 							echo $this->Custom->socialBookmark('email', '/contact');
 							echo $this->Custom->socialBookmark('rss', '/nodes/promoted.rss');
-							echo $this->Custom->socialBookmark('twitter', 'http://twitter.com/PascalPrecht');	
+							echo $this->Custom->socialBookmark('twitter', 'http://twitter.com/#');	
 						?>
 					</div>
 					<!-- end socialmedia -->
