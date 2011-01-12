@@ -106,4 +106,4 @@
 <p>
 	These are the most important features by HopelessArt. Have fun with it!
 </p>
-<p>If you have any questions, bugs or improvement suggestions feel free and send me a message to my email address!</p>
+<p>If you have any questions, bugs or improvement suggestions feel free open a ticket on github or send me an email.</p>
