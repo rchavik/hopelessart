@@ -9,22 +9,22 @@
 		            __('No items found.');
 		        } else {
 		            foreach ($this->params['named'] AS $nn => $nv) {
-		                $paginator->options['url'][$nn] = $nv;
+		                $this->Paginator->options['url'][$nn] = $nv;
 		            }
 		        }
 		    ?>
 
 		   	<?php
 		        foreach ($nodes AS $node) {
-		            $layout->setNode($node);
+		            $this->Layout->setNode($node);
 		    ?>
-		    <div id="node-<?php echo $layout->node('id'); ?>" class="node node-type-<?php echo $layout->node('type'); ?>">
-		        <h2><?php echo $html->link($layout->node('title'), $layout->node('url')); ?></h2>
+		    <div id="node-<?php echo $this->Layout->node('id'); ?>" class="node node-type-<?php echo $this->Layout->node('type'); ?>">
+		        <h2><?php echo $this->Html->link($this->Layout->node('title'), $this->Layout->node('url')); ?></h2>
 		        <?php
-		            echo $layout->nodeInfo();
-		            echo $layout->nodeExcerpt();
-		            echo $html->tag('div', $html->link('Continue Reading &raquo;', $layout->node('url'), array('escape' => false)), array('class' => 'continue-link')); 
-		            echo $layout->nodeMoreInfo();
+		            echo $this->Layout->nodeInfo();
+		            echo $this->Layout->nodeExcerpt();
+		            echo $this->Html->tag('div', $this->Html->link('Continue Reading &raquo;', $this->Layout->node('url'), array('escape' => false)), array('class' => 'continue-link')); 
+		            echo $this->Layout->nodeMoreInfo();
 		        ?>
 		    </div>
 		    <?php

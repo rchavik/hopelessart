@@ -10,6 +10,6 @@
     <h3><?php echo $b['title']; ?></h3>
 <?php } ?>
     <p>
-		<?php echo $layout->filter($b['body']); ?>
+		<?php echo $this->Layout->filter($b['body']); ?>
     </p>
 </div>
